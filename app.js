@@ -54,7 +54,7 @@ function verificarChute(){
         }
 
     }else{
-        exibirTexto('h1', 'Digite um numero entre 1 e 10!')
+        exibirTexto('h1', 'Digite um número entre 1 e 10!')
     }
     
    
