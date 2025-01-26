@@ -1,5 +1,5 @@
 let listaNumeroSorteado = [];
-let MAX = 10;
+let MAX = 100;
 let numeroSecreto = gerarNumAleatorio();
 let tentativa = 1;
 
@@ -30,7 +30,7 @@ function gerarNumAleatorio(){
 
 function imprimirTextos(){
     exibirTexto('h1', 'Bem-vindo ao desafio!');
-    exibirTexto('p', 'Digite um número entre 1 e 10: ');
+    exibirTexto('p', 'Digite um número entre 1 e 100: ');
 }
 
 imprimirTextos();
